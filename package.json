@@ -1,0 +1,19 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Timestamp microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangmuren/MyTimestamp.git"
+  },
+  "author": "xuefeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangmuren/MyTimestamp/issues"
+  },
+  "homepage": "https://github.com/liangmuren/MyTimestamp#readme"
+}
