@@ -1,12 +1,15 @@
+/*jshint asi:true,node: true*/
+"use strict"
 var express = require('express')
 var app = express()
 app.use('/:time',function(req,res){
     var time = req.params.time
     var unixtime = null
     var naturaltime = null
+    var date = null
     if(!isNaN(time)){
         unixtime = time
-        var date = new Date(Number(time)*1000)
+        date = new Date(Number(time)*1000)
         naturaltime=monthName[date.getMonth()]+" "+date.getDate()+", "+date.getFullYear()
     }else if(!isNaN(Date.parse(time))){
         date = new Date(time)
